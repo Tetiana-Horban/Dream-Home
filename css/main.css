@@ -1,0 +1,92 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #000000;
+}
+
+.container {
+  width: 1440px;
+  padding-left: 164px;
+  padding-right: 164px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  min-width: 1112px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__icon {
+  fill: #FE8934;
+  margin-right: 15px;
+}
+
+.nav__link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-right: 424px;
+  padding-top: 44px;
+  padding-bottom: 38px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 36px;
+}
+
+.hero__title {
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 1.3;
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: 1.6;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,30 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+img {
+  display: block;
+}
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+}
