@@ -1,3 +1,7 @@
+@import 'components/button';
+@import 'components/title';
+
+
 @import 'base/common';
 @import 'base/container';
 @import 'base/section';
@@ -5,5 +9,6 @@
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/plans';
+@import 'layout/home';
+@import 'layout/appartment';
 
-@import 'components/button';

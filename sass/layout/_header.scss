@@ -3,26 +3,27 @@
     align-items: center;
     &__icon {
         fill: #FE8934;
-        margin-right: 15px;
+        margin-right: 3.5em;
+        position: relative;
     }
     &__link {
         font-weight: 700;
-        font-size: 20px;
+        font-size: 1.25em;
         line-height: 1.5;
         
-        margin-right: 424px;
-        padding-top: 44px;
-        padding-bottom: 38px;
+        margin-right: 26.5em;
+        padding-top: 2.75em;
+        padding-bottom: 2.375em;
     }
     &__list {
         display: flex;
     }
     &__item {
         font-weight: 500;
-        font-size: 15px;
+        font-size: 1em;
         line-height: 1.5;
         &:not(:last-child) {
-            margin-right: 36px;
+            margin-right: 2.25em;
         }
     }
 }

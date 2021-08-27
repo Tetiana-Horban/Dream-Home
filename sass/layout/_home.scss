@@ -1,0 +1,29 @@
+.home {
+    padding-top: 2.1em;
+    padding-bottom: 3.625em;
+    &__title {
+        margin-bottom: 3.625em;
+    }
+    &--position {
+        display: flex;
+    }
+    &--box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        margin-right: 6em;
+    }
+    &__name {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 1.26;
+        letter-spacing: 0.02em;
+
+        margin-bottom: 2.5em;
+    }
+    &__text {
+        margin-bottom: 2.125em;
+    }
+}

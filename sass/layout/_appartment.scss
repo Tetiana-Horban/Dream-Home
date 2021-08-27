@@ -1,0 +1,42 @@
+.appartment {
+    padding-top: 2.625em;
+    padding-bottom: 6.5em;
+
+    &--background {
+        background-color: #060928;
+    }
+    &__title {
+        color: #FFFFFF;
+        margin-bottom: 3.625em;
+    }
+    &--position {
+        display: flex;
+    }
+    &--box {
+        display: flex;
+        flex-direction: column;
+
+    }
+    &__img {
+        border-radius: 1.25em;
+        margin-right: 6em;
+    }
+    &__name {
+        font-family: Montserrat;
+        font-weight: bold;
+        font-size: 1.5em;
+        line-height: 1.26;
+        letter-spacing: 0.02em;
+
+        color: #FFFFFF;
+        margin-top: 6em;
+        margin-bottom: 2.5em;    }
+    &__text {
+        font-size: 1.125em;
+        line-height: 1.6;
+        letter-spacing: 0.01em;
+
+        color: #FFFFFF;
+        margin-bottom: 2.25em;
+    }
+}
