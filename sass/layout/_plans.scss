@@ -1,0 +1,22 @@
+.plans {
+    padding-top: 100px;
+    padding-bottom: 66px;
+    &--box {
+        display: flex;
+    }
+   &__title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    margin-right: 175px;
+   } 
+   &__text {
+    font-size: 18px;
+    line-height: 1.6;
+    letter-spacing: 0.01em;
+    
+    color: #626161;
+   }
+}

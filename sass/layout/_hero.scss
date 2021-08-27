@@ -1,11 +1,34 @@
 .hero {
+    display: flex;
+    padding-top: 121px;
+    padding-bottom: 181px;
+    position: relative;
     &__title {
         font-weight: 700px;
         font-size: 48px;
         line-height: 1.3;
+
+        margin-bottom: 35px;
     }
     &__text {
         font-size: 18px;
         line-height: 1.6;
+
+        margin-bottom: 35px;
+    }
+    &--position {
+        max-width: 520px;
+    }
+    &--img {
+        flex-grow: 1;
+        position: absolute;
+        z-index: -1;
+        top: -112px;
+        left: 575px;        
+        min-width: 711px;
+        min-height: 824px;
+        background-size: cover;
+        background-image: url(../images/image_2.jpg);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 }
