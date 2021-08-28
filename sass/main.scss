@@ -1,14 +1,17 @@
 @import 'components/button';
 @import 'components/title';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/slick';
 
 
 @import 'base/common';
 @import 'base/container';
-@import 'base/section';
 
-@import 'layout/header';
 @import 'layout/hero';
 @import 'layout/plans';
 @import 'layout/home';
 @import 'layout/appartment';
+@import 'layout/gallery';
+
 

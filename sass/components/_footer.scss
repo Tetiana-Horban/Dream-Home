@@ -1,0 +1,51 @@
+.footer {
+display: flex;
+padding-top: 260px;
+padding-bottom: 80px;
+color: #FFFFFF;
+    &--background {
+        background-color: #3456FE;
+    }
+    &--position {
+        display: flex;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    &--box {
+       width: 373px;
+       margin-right: 205px; 
+    }
+    &__icon {
+        fill: #FFFFFF;
+        margin-right: 17px;
+    }
+    &__link {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.01em;    
+    }
+    &__list {
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.02em;
+
+        &:not(:last-child) {
+            margin-right: 80px;
+        }
+    }
+    &__item {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.6;
+        letter-spacing: 0.02em;
+        margin-top: 10px;
+    }
+}

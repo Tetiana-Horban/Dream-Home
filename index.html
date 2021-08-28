@@ -18,16 +18,20 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <div class="container">
       <header class="header section">
         <nav class="nav">
+        <div class="nav__link--position">
           <svg class="nav__icon" width="40" height="40">
             <use href="./images/icons.svg#icon-ellipse"></use>
           </svg>
           <a class="nav__link link" href="">PROPERTY.io</a>
+        </div>
           <ul class="nav__list list">
             <li class="nav__item"><a href="" class="link">Home</a></li>
             <li class="nav__item"><a href="" class="link">About</a></li>
@@ -56,7 +60,7 @@
       <div class="container plans--background">
         <section class="plans section">
           <div class="plans--box">
-            <h2 class="plans__title title">Real State Offers New<br/> Building Plans</h2>
+            <h2 class="plans__title title">Real State Offers New Building Plans</h2>
             <p class="plans__text text">
               Website that provides services for selling property and various types of properties
               along with strategic home building locations, building houses.
@@ -177,47 +181,67 @@
                 </div>
               </div>
           </section>
+        </div>
+        <div class="container">
+          <section class="gallery">
+            <h2 class="gallery__title title">We Built Houses, Now We're Building a Real Estate Empire</h2>
+            <div class="gallery__slide">
+              <picture class="gallery__picture">
+                <source srcset="./images/Rectangle-11.jpg 1x, ./images/Rectangle-11@2x.jpg 2x" />
+                <source srcset="./images/Rectangle-11.webp 1x, ./images/Rectangle-11@2x.webp 2x" type="image/webp" />
+                <img class="gallery__img" src="#" alt="дом" />
+              </picture>
+              </div>
+            <h3 class="gallery__name">Real Estate Empire</h3>
+            <p class="gallery__text">
+              Website that provides services for selling property and various types of properties along
+              with strategic home building locations, building houses.
+            </p>
+          </section>
             </div>
-      <section>
-        <h2>We Built Houses, Now We're Building a Real Estate Empire</h2>
-        <img src="" alt="" />
-        <h3>Real Estate Empire</h3>
-        <p>
+      <section class="container container--background-photo">
+      </section>
+    </main>
+    <div class="container footer--background">
+      <footer class="footer section">
+      <div class="footer--box">
+        <div class="footer--position">
+          <svg class="footer__icon" width="40" height="40">
+            <use href="./images/icons.svg#icon-ellipse"></use>
+          </svg>
+        <a class="footer__link link" href="">PROPERTY.io</a>
+          </div>
+        <p class="footer__text">
           Website that provides services for selling property and various types of properties along
           with strategic home building locations, building houses.
         </p>
-      </section>
-      <section></section>
-    </main>
-    <footer>
-      <a href="">PROPERTY.io</a>
-      <p>
-        Website that provides services for selling property and various types of properties along
-        with strategic home building locations, building houses.
-      </p>
-      <h5>International sites:</h5>
-      <ul>
-        <li>China</li>
-        <li>Malaysia</li>
-        <li>Singapore</li>
-        <li>Hong Kong</li>
-        <li>Indonesia</li>
-        <li>Thailand</li>
-        <li>India</li>
-        <li>International properties</li>
-      </ul>
-      <h5>Partner sites:</h5>
-      <ul>
-        <li>news.com.au</li>
-        <li>foxsports.com.au</li>
-        <li>homeguru.com.au</li>
-        <li>realestate.co.nz</li>
-        <li>mansionglobal.com</li>
-        <li>askizzy.org.au</li>
-        <li>hipages.com.au</li>
-        <li>makaan.com</li>
-        <li>proptiger.com</li>
-      </ul>
-    </footer>
+      </div>
+        <ul class="footer__list list">International sites:
+          <li class="footer__item">China</li>
+          <li class="footer__item">Malaysia</li>
+          <li class="footer__item">Singapore</li>
+          <li class="footer__item">Hong Kong</li>
+          <li class="footer__item">Indonesia</li>
+          <li class="footer__item">Thailand</li>
+          <li class="footer__item">India</li>
+          <li class="footer__item">International properties</li>
+        </ul>
+        <ul class="footer__list list">Partner sites:
+          <li class="footer__item">news.com.au</li>
+          <li class="footer__item">foxsports.com.au</li>
+          <li class="footer__item">homeguru.com.au</li>
+          <li class="footer__item">realestate.co.nz</li>
+          <li class="footer__item">mansionglobal.com</li>
+          <li class="footer__item">askizzy.org.au</li>
+          <li class="footer__item">hipages.com.au</li>
+          <li class="footer__item">makaan.com</li>
+          <li class="footer__item">proptiger.com</li>
+        </ul>
+      </footer>
+      </div>
+      <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+      <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script type="module" src="./js/slick.js"></script>
   </body>
 </html>

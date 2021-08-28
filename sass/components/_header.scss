@@ -3,27 +3,30 @@
     align-items: center;
     &__icon {
         fill: #FE8934;
-        margin-right: 3.5em;
-        position: relative;
+        margin-right: 15px;
     }
     &__link {
         font-weight: 700;
-        font-size: 1.25em;
+        font-size: 20px;
         line-height: 1.5;
         
-        margin-right: 26.5em;
-        padding-top: 2.75em;
-        padding-bottom: 2.375em;
+        margin-right: 424px;
+        &--position {
+            display: flex;
+            align-items: center;
+            padding-top: 38px;
+            padding-bottom: 34px;
+            }
     }
     &__list {
         display: flex;
     }
     &__item {
         font-weight: 500;
-        font-size: 1em;
+        font-size: 15px;
         line-height: 1.5;
         &:not(:last-child) {
-            margin-right: 2.25em;
+            margin-right: 36px;
         }
     }
 }

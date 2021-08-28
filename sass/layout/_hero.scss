@@ -1,32 +1,32 @@
 .hero {
     display: flex;
-    padding-top: 7.6em;
-    padding-bottom: 11.3em;
+    padding-top: 121px;
+    padding-bottom: 181px;
     position: relative;
     &__title {
-        font-weight: 700;
-        font-size: 3em;
+        font-weight: 700px;
+        font-size: 48px;
         line-height: 1.3;
 
-        margin-bottom: 2.2em;
+        margin-bottom: 35px;
     }
     &__text {
-        font-size: 1.125em;
+        font-size: 18px;
         line-height: 1.6;
 
-        margin-bottom: 2.2em;
+        margin-bottom: 35px;
     }
     &--position {
-        max-width: 32.5em;
+        max-width: 520px;
     }
     &--img {
         flex-grow: 1;
         position: absolute;
         z-index: -1;
-        top: -7em;
-        left: 36em;        
-        width: 44.4em;
-        height: 51.5em;
+        top: -112px;
+        left: 575px;        
+        min-width: 711px;
+        min-height: 824px;
         background-size: cover;
         background-image: url(../images/image_2.jpg);
         transform: matrix(-1, 0, 0, 1, 0, 0);

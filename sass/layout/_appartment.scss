@@ -1,16 +1,18 @@
 .appartment {
-    padding-top: 2.625em;
-    padding-bottom: 6.5em;
+    padding-top: 42px;
+    padding-bottom: 104px;
 
     &--background {
         background-color: #060928;
     }
     &__title {
         color: #FFFFFF;
-        margin-bottom: 3.625em;
+        margin-bottom: 58px;
     }
     &--position {
         display: flex;
+        margin-left: -164px;
+
     }
     &--box {
         display: flex;
@@ -18,25 +20,25 @@
 
     }
     &__img {
-        border-radius: 1.25em;
-        margin-right: 6em;
+        border-radius: 20px;
+        margin-right: 96px;
     }
     &__name {
         font-family: Montserrat;
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 24px;
         line-height: 1.26;
         letter-spacing: 0.02em;
 
         color: #FFFFFF;
-        margin-top: 6em;
-        margin-bottom: 2.5em;    }
+        margin-top: 96px;
+        margin-bottom: 40px;    }
     &__text {
-        font-size: 1.125em;
+        font-size: 18px;
         line-height: 1.6;
         letter-spacing: 0.01em;
 
         color: #FFFFFF;
-        margin-bottom: 2.25em;
+        margin-bottom: 36px;
     }
 }

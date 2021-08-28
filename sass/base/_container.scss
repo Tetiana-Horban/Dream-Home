@@ -1,13 +1,18 @@
 .container {
-    min-width: 90em;
-    padding-left: 10.25em;
-    padding-right: 10.25em;
+    width: 1440px;
+    padding-left: 164px;
+    padding-right: 164px;
     margin-left: auto;
     margin-right: auto;
 
 }
+.container--background-photo {
+    background-image: url(../images/shubham-dhage.jpg);
+    background-size: cover;
+    min-height: 1007px;
+}
 .section {
-    width: 69.5em;
+    width: 1112px;
     margin-left: auto;
     margin-right: auto;
 }

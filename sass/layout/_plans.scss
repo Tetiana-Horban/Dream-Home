@@ -1,50 +1,51 @@
 .plans {
-    padding-top: 6.25em;
-    padding-bottom: 4.125em;
+    padding-top: 100px;
+    padding-bottom: 66px;
     &--background {
         background-color: #F8F8FA;
     }
 
     &--box {
         display: flex;
-        margin-bottom: 3.375em;
-
+        margin-bottom: 42px;
     }
    &__title {
-    margin-right: 11em;
+    min-width: 432px;
+    margin-right: 175px;
    } 
    &__list {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 7.5em) / 3);
+    
 
-    margin-right: -2.5em;
-    margin-bottom: -2.5em;
+    margin-right: -40px;
+    margin-bottom: -40px;
 
    }
    &__item {
-    margin-right: 2.5em;
-    margin-bottom: 2.5em;
+    flex-basis: calc((100% - 120px) / 3);
+    margin-right: 40px;
+    margin-bottom: 40px;
    }
    &__img {
-    border-radius: 1.25em;
-   margin-bottom: 1em;    
+    border-radius: 20px;
+    margin-bottom: 17px;    
    }
    &__city {
     font-family: Montserrat;
     font-weight: 700;
-    font-size: 1.25em;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    margin-bottom: 0.625em;
+    margin-bottom: 10px;
    }
    &__address {
     font-family: Montserrat;
-    font-size: 1.125em;
+    font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 
-    margin-bottom: 0.625em;
+    margin-bottom: 10px;
     }
 }
